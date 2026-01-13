@@ -5,6 +5,7 @@ import UseEffectPage from "@/3-use-effect/UseEffectPage";
 import UseMemo from "@/4-use-memo/UseMemo";
 import UseCallback from "@/5-use-callback/UseCallback";
 import UseRefPage from "@/6-use-ref/UseRefPage";
+import CustomHookParent from "@/7-custom-hooks/CustomHookParent";
 
 const App = () => {
   
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/use-callback" element={<UseCallback />} />
           <Route path="/use-memo" element={<UseMemo />} />
           <Route path="/use-ref" element={<UseRefPage />} />
+          <Route path="/custom-hooks" element={<CustomHookParent />} />
         </Routes>
       </div>
   )
