@@ -6,6 +6,7 @@ import UseMemo from "@/4-use-memo/UseMemo";
 import UseCallback from "@/5-use-callback/UseCallback";
 import UseRefPage from "@/6-use-ref/UseRefPage";
 import CustomHookParent from "@/7-custom-hooks/CustomHookParent";
+import UseContextPage from "@/8-use-context/UseContextPage";
 
 const App = () => {
   
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/use-memo" element={<UseMemo />} />
           <Route path="/use-ref" element={<UseRefPage />} />
           <Route path="/custom-hooks" element={<CustomHookParent />} />
+          <Route path="/use-context" element={<UseContextPage />} />
         </Routes>
       </div>
   )
