@@ -7,7 +7,7 @@ export const ThemeProvider = ({ children }) => {
 
     const changeTheme = () => {
         setTheme(item => item == 'dark' ? 'light' : 'dark')
-    }
+    }  
 
     return (
         <AuthContext.Provider value={{ theme, changeTheme }}>
