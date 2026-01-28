@@ -7,6 +7,7 @@ import UseCallback from "@/5-use-callback/UseCallback";
 import UseRefPage from "@/6-use-ref/UseRefPage";
 import CustomHookParent from "@/7-custom-hooks/CustomHookParent";
 import UseContextPage from "@/8-use-context/UseContextPage";
+import RtkQuery from "@/9-rtk-redux/RtkQuery";
 
 const App = () => {
   
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/use-ref" element={<UseRefPage />} />
           <Route path="/custom-hooks" element={<CustomHookParent />} />
           <Route path="/use-context" element={<UseContextPage />} />
+          <Route path="/rtk-query" element={<RtkQuery />} />
         </Routes>
       </div>
   )
