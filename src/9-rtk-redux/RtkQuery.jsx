@@ -11,16 +11,22 @@ const RtkQuery = () => {
 
         <button onClick={()=> {
             dispatch(increment())
-        }}>Increase</button>
+        }}>
+            Increase
+        </button>
 
         <button onClick={()=> {
             dispatch(decrement())
-        }}>Decrease</button>
+        }}>
+            Decrease
+        </button>
 
         
         <button onClick={()=> {
             dispatch(increaseByAmount(10))
-        }}>double</button>
+        }}>
+            Double
+        </button>
         </>
     )
 }
